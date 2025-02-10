@@ -3,10 +3,8 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"dependencies": {
-		"@packages/build-config": "*",
-		"@packages/shared": "*",
-		"@sergeri-jr25/shared1234": "^1.0.2",
-		"@sergeri-jr25/shared2": "^1.0.0",
+		"@sergeri-jr25/build-config": "^1.0.3",
+		"@sergeri-jr25/tsconfig": "^1.0.4",
 		"@types/webpack-bundle-analyzer": "^4.7.0",
 		"fork-ts-checker-webpack-plugin": "^9.0.2",
 		"react": "^18.2.0",
