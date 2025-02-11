@@ -4,6 +4,7 @@ import {
 	TypePLatform,
 	buldWebpack,
 } from '@sergeri-jr25/build-config'
+
 import path from 'path'
 import webpack from 'webpack'
 import PackageJson from './package.json'
@@ -38,7 +39,7 @@ export default (env: IEnvVariable) => {
 			name: 'shop',
 			filename: 'remoteEntry.js',
 			exposes: {
-				'./Router': '/src/components/router/Router.tsx',
+				'./Router': '/src/components/App.tsx', // './Router': '/src/components/router/Router.tsx',
 			},
 			shared: {
 				...PackageJson.dependencies,
